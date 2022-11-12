@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import "typeface-montserrat";
   
@@ -10,3 +11,5 @@ const Home = () => {
 };
   
 export default Home;
+=======
+>>>>>>> fa98fc068b0aec9cc8e1d46c64ef7097e0a885df

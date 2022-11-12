@@ -8,6 +8,9 @@ const Navbar = () => {
     <>
       <Nav>
         <NavMenu>
+          <NavLink to ="/home" activeStyle>
+            My conversations
+          </NavLink>
           <NavLink to="/profile" activeStyle>
             Profile
           </NavLink>
