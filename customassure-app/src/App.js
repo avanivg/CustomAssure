@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './testAPI.js'; 
 
 function App() {
   return (
@@ -23,3 +24,5 @@ function App() {
 }
 
 export default App;
+
+
