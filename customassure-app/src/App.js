@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -20,6 +20,31 @@ function App() {
       </header>
     </div>
   );
+}
+
+export default App;
+*/
+
+import React from 'react';
+import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route}
+	from 'react-router-dom';
+import Profile from './pages/profile';
+import Statistics from './pages/statistics';
+import Home from './pages';
+
+function App() {
+return (
+	<Router>
+	<Navbar />
+	<Routes>
+		<Route exact path='/' element={<Home />} />
+		<Route path='./pages/statistics' element={<Statistics/>} />
+		<Route path='/profile' element={<Profile/>} />
+	</Routes>
+	</Router>
+);
 }
 
 export default App;
