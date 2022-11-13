@@ -15,6 +15,11 @@ const Navbar = () => {
           <NavLink to="/profile" activeStyle>
             Profile
           </NavLink>
+          <div class = "brand justify-content-end">
+        <i class="fa-solid fa-user-group"></i>
+          <h2> CustomAssure</h2>
+          </div>
+          
         </NavMenu>
       </Nav>
     </>

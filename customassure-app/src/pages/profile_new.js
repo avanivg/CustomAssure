@@ -117,7 +117,7 @@ export default function ProfilePage() {
                         {
                           title: 'Customer Satisfaction',
                           width: 280, 
-                          height: 300,
+                          height: 312,
                           xaxis: { title:{ text: 'Time (In Weeks)' } },
                           yaxis: { title:{ text: 'Emotional Satisfaction'} }
                         } 
@@ -138,7 +138,7 @@ export default function ProfilePage() {
                         {
                           title: 'Employee Performance',
                           width: 280, 
-                          height: 300,
+                          height: 312,
                           xaxis: { title:{ text: 'Time (In Weeks)'} },
                           yaxis: { title:{ text: 'Average Satisfaction (%)'} }
                         } 

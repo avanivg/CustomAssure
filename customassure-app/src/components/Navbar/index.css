@@ -3,12 +3,35 @@ h1 {
     font-family: Poppins;
     font-size: 30px;
     font-weight: bold;
-    margin-top: 3px;
     margin-left: 5px;
     margin-bottom: 1px;
     text-align: left;
     }
 body {
     font-family: Poppins;
-    background-color: rgb(37, 91, 91);
+}
+
+.fa-user-group{
+    align-items: right;
+    padding-top: 15px;
+    padding-right: 10px;
+    /* padding-left: 1100px; */
+    color: white;
+
+}
+
+h2{
+    /* padding-left: 1100px; */
+    padding-top: 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white; 
+    float: right;
+}
+
+.NavMenu {
+    justify-between: center;
+}
+
+.brand{
+    padding-left: 1350px;
 }
