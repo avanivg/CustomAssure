@@ -23,15 +23,12 @@ body {
 h2{
     /* padding-left: 1100px; */
     padding-top: 12px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
     color: white; 
     float: right;
 }
 
-.NavMenu {
-    justify-between: center;
-}
 
 .brand{
-    padding-left: 1350px;
+    padding-left: 1000px;
 }

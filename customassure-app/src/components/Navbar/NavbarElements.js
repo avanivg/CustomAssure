@@ -4,12 +4,12 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
 background: #004266;
-height: 100px;
+height: 80px;
 display: flex;
 justify-content: space-between;
 padding: 0 rem;
 z-index: 12;
-font-size: 30px;
+font-size: 24px;
 font-family: Poppins;
 `;
 
@@ -19,7 +19,7 @@ display: flex;
 font-family: Poppins;
 align-items: center;
 text-decoration: none;
-padding: 0 1rem;
+padding: 30px;
 height: 100%;
 cursor: pointer;
 width: 33.33%

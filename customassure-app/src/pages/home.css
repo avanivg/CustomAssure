@@ -9,13 +9,13 @@
 }
 
 #negative{
-   background-color: rgb(178, 65, 65);
+   background-color: #f8acaa;
 }
 #neutral{
-   background-color: rgb(141, 139, 139);
+   background-color: #fdf393;
 }
 #positive{
-   background-color: rgb(120, 191, 120);
+   background-color: #b9f5b2;
 }
 
 .list-group-item {
