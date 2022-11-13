@@ -9,6 +9,23 @@
     background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
   }
 
-  h1{
+ .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    gap: 5px;
+ }
+.profile-pic{
+}
+ .conv-box{
     text-align: center;
-  }
+ }
+
+ .employee{
+    text-align: center;
+ }
+
+ .card{
+    borderRadius: '15px'
+ }

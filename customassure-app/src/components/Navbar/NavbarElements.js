@@ -4,11 +4,12 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
 background: #004266;
-height: 30px;
+height: 100px;
 display: flex;
 justify-content: space-between;
 padding: 0 rem;
 z-index: 12;
+font-size: 30px;
 `;
 
 export const NavLink = styled(Link)`
@@ -19,6 +20,7 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
+width: 33.33%
 &.active {
 	color: #4d4dff;
 }
@@ -33,7 +35,7 @@ color: #808080;
 	top: 0;
 	right: 0;
 	transform: translate(-100%, 75%);
-	font-size: 1.8rem;
+	font-size: 20px;
 	cursor: pointer;
 }
 `;
