@@ -14,68 +14,66 @@ const Home = () => {
   return (
 <div class = "home">
   <div class="list-group list-group-light">
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="negative">
     Baron Tran
     <small>Active Now</small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="negative">
     Noah Bowman
-    <small>Last active: 4 hours ago</small>
+    <small>Satisfaction Score: -3 </small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action px-4 rounded-4 d-flex justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action px-4 rounded-4 d-flex justify-content-between align-items-center" id="negative">
      Avani Garde
-     <small>Last active: 7 hours ago</small>
+     <small>Satisfaction Score: -3</small>
      </a>
-     <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+     <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="negative">
     Neha Peddireddy
-    <small>Last active: 12 hours ago</small>
+    <small>Satisfaction Score: -2.5</small>
     </a>
-     <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex px-4 justify-content-between align-items-center">
+     <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex px-4 justify-content-between align-items-center" id="negative">
     Grace Yang
-    <small>Last active: 2 days ago</small>
+    <small>Satisfaction Score: -1 </small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="neutral">
     Capital One
-    <small>Last active: 3 days ago</small>
+    <small>Satisfaction Score: 0</small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="neutral">
     Shagun Dalal
-    <small>Last active: 5 days ago</small>
+    <small>Satisfaction Score: 0</small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="neutral">
     Toyota
-    <small>Last active: 5 days ago</small>
+    <small>Satisfaction Score: 0</small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="neutral">
     State Farm
-    <small>Last active: 6 days ago</small>
-    </a>
-    
+    <small>Satisfaction Score: 0</small>
+    </a> 
    
-   
-    <a href="./profile" class="list-group-item list-group-item-action px-4 rounded-4 d-flex justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action px-4 rounded-4 d-flex justify-content-between align-items-center" id="positive" >
      Gayathri Vijayakumar
-     <small>Last active: 7 days ago</small>
+     <small>Satisfaction Score: 1</small>
      </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="positive" >
     Ring Central
-    <small>Last active: 8 days ago</small>
+    <small>Satisfaction Score: 1.5</small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="positive">
     CBRE
-    <small>Last active: 9 days ago</small>
+    <small>Satisfaction Score: 2</small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="positive">
     Fidelity
-    <small>Last active: 9 days ago</small>
+    <small>Satisfaction Score: 2.5</small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="positive">
     ACM
-    <small>Last active: 11 days ago</small>
+    <small>Satisfaction Score: 3</small>
     </a>
-    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center" id="positive">
     Nebula
-    <small>Last active: 15 days ago</small>
+    <small>Satisfaction Score: 3</small>
     </a>
   </div>
   <div class = "chatbot">

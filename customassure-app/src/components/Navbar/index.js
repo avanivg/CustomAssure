@@ -10,10 +10,13 @@ const Navbar = () => {
      <Nav>
         <NavMenu>
           <NavLink to ="/home" activeStyle>
-            Customer Portal
+            My Customers
           </NavLink>
           <NavLink to="/profile" activeStyle>
             Profile
+          </NavLink>
+          <NavLink to="/Nlp" activeStyle>
+            Email Sentiment Analysis
           </NavLink>
           <div class = "brand justify-content-end">
         <i class="fa-solid fa-user-group"></i>

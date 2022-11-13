@@ -7,6 +7,17 @@
    width: 500px;
    display: inline-block;
 }
+
+#negative{
+   background-color: rgb(178, 65, 65);
+}
+#neutral{
+   background-color: rgb(141, 139, 139);
+}
+#positive{
+   background-color: rgb(120, 191, 120);
+}
+
 .list-group-item {
    border-color: black;
    border-width: 5px;
