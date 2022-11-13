@@ -28,7 +28,12 @@
  }
 
  .card{
-    borderRadius: '15px'
+    border-radius: '15px'
+ }
+ .row_graph{
+   padding-top: 20px;
+   justify-content: space-between;
+   text-align: center;
  }
  .row_graph{
    padding-top: 20px;

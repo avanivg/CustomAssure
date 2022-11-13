@@ -10,11 +10,13 @@ justify-content: space-between;
 padding: 0 rem;
 z-index: 12;
 font-size: 30px;
+font-family: Poppins;
 `;
 
 export const NavLink = styled(Link)`
 color: #FFFFFF;
 display: flex;
+font-family: Poppins;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
@@ -36,12 +38,14 @@ color: #808080;
 	right: 0;
 	transform: translate(-100%, 75%);
 	font-size: 20px;
+	font-family: Poppins;
 	cursor: pointer;
 }
 `;
 
 export const NavMenu = styled.div`
 display: flex;
+font-family: Poppins;
 align-items: center;
 margin-right: -24px;
 /* Second Nav */
