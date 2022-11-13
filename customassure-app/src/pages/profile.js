@@ -1,14 +1,3 @@
-// import React from 'react';
-  
-// const Profile = () => {
-//   return (
-//     <div>
-//       <h1>Mail us on feedback@geeksforgeeks.org</h1>
-//     </div>
-//   );
-// };
-  
-// export default Profile;
 
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
