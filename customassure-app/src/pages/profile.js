@@ -11,8 +11,6 @@ export default function Basic() {
   return (
     <div className="page" style={{ backgroundColor: '#ffffff' }}>
 
-      
-    
         <div class = "row-fluid">
           <div class = "container">
                   <div class="profile-pic">

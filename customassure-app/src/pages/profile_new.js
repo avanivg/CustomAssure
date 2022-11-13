@@ -26,11 +26,15 @@ export default function ProfilePage() {
                   className="rounded-circle"
                   style={{ width: '150px' }}
                   fluid />
-                <p className="text-muted mb-1">Full Stack Developer</p>
-                <p className="text-muted mb-4">Bay Area, San Francisco, CA</p>
+                  <br></br><br></br><br></br>
+                <p className="text-muted mb-1">Temoc</p>
+                <p className="text-muted mb-1"> </p>
+                <p className="text-muted mb-1">UTD, Richardson, TX</p>
+                <p className="text-muted mb-1">Whoosh!</p>
+                <br></br>
                 <div className="d-flex justify-content-center mb-2">
-                  <MDBBtn>Follow</MDBBtn>
-                  <MDBBtn outline className="ms-1">Message</MDBBtn>
+                  <MDBBtn>EDIT PROFILE</MDBBtn>
+                  {/* <MDBBtn outline className="ms-1">Message</MDBBtn> */}
                 </div>
               </MDBCardBody>
             </MDBCard>
@@ -41,6 +45,7 @@ export default function ProfilePage() {
                    <div class = "card-body">
                    <h1> 86% </h1>
                       <p> Average Customer Satisfaction</p>
+                      <br></br>
                       <a href="./home" class="btn btn-primary">See Conversations</a>
                     </div>                  
                   </div>
@@ -64,7 +69,7 @@ export default function ProfilePage() {
                     <MDBCardText>Email</MDBCardText>
                   </MDBCol>
                   <MDBCol sm="9">
-                    <MDBCardText className="text-muted">example@example.com</MDBCardText>
+                    <MDBCardText className="text-muted">temoc@utdallas.edu</MDBCardText>
                   </MDBCol>
                 </MDBRow>
                 <hr />
@@ -91,7 +96,7 @@ export default function ProfilePage() {
                     <MDBCardText>Address</MDBCardText>
                   </MDBCol>
                   <MDBCol sm="9">
-                    <MDBCardText className="text-muted">Bay Area, San Francisco, CA</MDBCardText>
+                    <MDBCardText className="text-muted">Richardson, TX</MDBCardText>
                   </MDBCol>
                 </MDBRow>
               </MDBCardBody>
@@ -114,7 +119,7 @@ export default function ProfilePage() {
                           width: 280, 
                           height: 300,
                           xaxis: { title:{ text: 'Time (In Weeks)' } },
-                          yaxis: { title:{ text: 'Emotional Satisfaction <br> (Negative: -3 & Positive 3)'} }
+                          yaxis: { title:{ text: 'Emotional Satisfaction'} }
                         } 
                       }
                   />
@@ -135,7 +140,7 @@ export default function ProfilePage() {
                           width: 280, 
                           height: 300,
                           xaxis: { title:{ text: 'Time (In Weeks)'} },
-                          yaxis: { title:{ text: 'Average Satisfaction <br> (Percentage)'} }
+                          yaxis: { title:{ text: 'Average Satisfaction (%)'} }
                         } 
                       }
                   />
