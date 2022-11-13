@@ -8,13 +8,6 @@ import {
   MDBCardBody,
   MDBCardImage,
   MDBBtn,
-  MDBBreadcrumb,
-  MDBBreadcrumbItem,
-  MDBProgress,
-  MDBProgressBar,
-  MDBIcon,
-  MDBListGroup,
-  MDBListGroupItem
 } from 'mdb-react-ui-kit';
 import './profile_new.css';
 import Plot from 'react-plotly.js';
