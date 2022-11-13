@@ -13,8 +13,7 @@ return (
 	<Navbar />
 	<Routes>
 		<Route exact path='/home' element={<Home />} />
-		<Route path='/statistics' element={<Statistics/>} />
-		<Route path='/profile' element={<Profile/>} />
+		<Route path='/profile' element={<ProfilePage/>} />
 	</Routes>
 	</Router>
 );
