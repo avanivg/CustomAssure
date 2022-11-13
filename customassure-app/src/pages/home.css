@@ -1,6 +1,22 @@
+@font-face {
+   font-family: 'Poppins';
+   src: local('Poppins'), url(./../fonts/Poppins-Regular.ttf) format('truetype');
+ }
+
 .list-group{
    width: 500px;
    display: inline-block;
+}
+.list-group-item {
+   border-color: black;
+   border-width: 5px;
+   color: black;
+   font-family: Poppins;
+   font-size: regular;
+}
+.list-group-item.list-group-item-action{
+   border-bottom: 2px solid hsla(210, 7%, 6%, 0.438);
+   background-color: #e2e1e154;
 }
 .chatbot{
    background-color: #ffffff;
@@ -44,12 +60,14 @@
    font-size: 1.2rem;
    color: #514f4f;
    padding: 12.5px;
+   font-family: Poppins;
    font-weight: bold;
 } 
 .react-chatbot-kit-chat-input {
    width: 100%;
    padding: 12.5px;
    border: none;
+   font-family: Poppins;
    font-size: 1rem;
    border-top: 1px solid #d8d8d8;
    border-bottom-left-radius: 5px;
@@ -58,6 +76,7 @@
    background-color: #004266;
    padding: 10px;
    border-radius: 5px;
+   font-family: Poppins;
    font-size: 1rem;
    color: #fff;
    font-weight: medium;

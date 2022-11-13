@@ -14,29 +14,41 @@ const Home = () => {
   return (
 <div class = "home">
   <div class="list-group list-group-light">
-    <a href="./profile" class="list-group-item list-group-item-action px-4 border-0 rounded-3 mb-2 list-group-item-success d-flex justify-content-between align-items-center">
-     Customer 1
-     <span class="badge badge-primary badge-pill">14</span>
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    Aaron Tran
+    <small>Last active: 4 hours ago</small>
+    </a>
+    <a href="./profile" class="list-group-item list-group-item-action px-4 rounded-4 d-flex justify-content-between align-items-center">
+     Avani Garde
+     <small>Last active: 6 hours ago</small>
      </a>
-    <a href="#" class="list-group-item list-group-item-action px-4 border-0 rounded-3 mb-2 list-group-item-danger d-flex justify-content-between align-items-center">
-     Customer 2
-     <span class="badge badge-primary badge-pill">2</span>
-     </a>
-    <a href="#" class="list-group-item list-group-item-action px-4 border-0 rounded-3 mb-2 list-group-item-warning d-flex justify-content-between align-items-center">
-      Customer 3
-      <span class="badge badge-primary badge-pill">2</span>
-      </a>
-      </div>
-
-      <div class = "chatbot">
+     <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex px-4 justify-content-between align-items-center">
+    Grace Yang
+    <small>Last active: 2 hours ago</small>
+    </a>
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    Shagun Dalal
+    <small>Last active: 5 days ago</small>
+    </a>
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    State Farm
+    <small>Last active: 6 days ago</small>
+    </a>
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    CBRE
+    <small>Last active: 9 days ago</small>
+    </a>
+    <a href="./profile" class="list-group-item list-group-item-action rounded-4 d-flex  px-4 justify-content-between align-items-center">
+    Toyota
+    <small>Last active: 5 days ago</small>
+    </a>
+  </div>
+  <div class = "chatbot">
       <header className="App-header">
       <Chatbot config={config} actionProvider={ActionProvider} 	    messageParser={MessageParser} />
       </header>
       </div>
-     
-  </div>
-   
-
+   </div> 
 
   );
 

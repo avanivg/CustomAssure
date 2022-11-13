@@ -1,18 +1,16 @@
 
 import React from "react";
+import './index.css';
 import { Nav, NavLink, NavMenu } 
     from "./NavbarElements";
   
 const Navbar = () => {
   return (
     <>
-      <Nav>
+     <Nav>
         <NavMenu>
           <NavLink to ="/home" activeStyle>
-            My Conversations
-          </NavLink>
-          <NavLink to="/statistics" activeStyle>
-            Statistics
+            Customer Portal
           </NavLink>
           <NavLink to="/profile" activeStyle>
             Profile
